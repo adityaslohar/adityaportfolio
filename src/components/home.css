@@ -1,0 +1,535 @@
+
+.adi-port-sec1{
+    height: auto;
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply; */
+    background: url(/src/images/adi-port-sec1-bg.jpg);
+}
+
+.adi-port-sec1-sub-div{
+    padding: 5% 0% 0% 10%;
+    display: flex;
+    align-items: center;
+}
+.adi-port-sec1-sub-div-p1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+.adi-port-sec1-sub-div-p2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+.adi-port-sec1-sub-div-p3{
+    color: white;
+    text-align: left;
+}
+
+.adi-port-sec1-sub-div-btn-grp{
+    display: flex;
+}
+.adi-port-sec1-sub-div-btn1{
+    background: #cdb30c;
+    color: white;
+    padding: 2% 4% 2% 4%;
+
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.adi-port-sec1-sub-div-btn2{
+    background: white;
+    color: black;
+    padding: 2% 4% 2% 4%;
+    margin: 0% 0% 0% 2%;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.adi-prd-sec1-right-img{
+  width: 100%;
+}
+
+/* --------------------sec2------------------------ */
+
+.adi-port-sec2{
+    height: auto;
+
+}
+.adi-port-sec2-img1{
+    width: 85%;
+    /* border-radius: 8px; */
+}
+
+.adi-port-sec2-right{
+    display: flex;
+    align-items: center;
+}
+
+.adi-port-sec2-right-sub1-p1{
+    color: #cdb30c;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.adi-port-sec2-right-sub1-p2{
+    color: black;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.adi-port-sec2-right-sub1-p3{
+    color: #999999;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.adi-port-sec2-right-sub1-p4{
+    color: #999999;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.adi-port-sec2-right-sub1-p5{
+    color: #999999;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+
+/* --------------------sec3------------------------ */
+
+.adi-prd-sec3{
+    height: auto;
+    background: rgb(244, 245, 249);
+    /* background: url(../images/adi-port-sec1-bg1.jpg); */
+    padding: 3% 0% 3% 0%;
+}
+
+.adi-prd-sec3-title1{
+    color: #cdb30c;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+.adi-prd-skill-sec-row1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.skills {
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    max-width: 100%;
+    /* margin: 0% 4% 0% 4%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill h4 {
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 11px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #cdb30c;
+    transition: width 0.6s ease;
+  }
+
+  .adi-prd-sec3-cards{
+    background: white;
+    margin: 0% 2% 0% 2%;
+    border-radius: 8px;
+  }
+
+
+  .adi-prd-sec4{
+    height: auto;
+    background: url(../images/adi-prd-sec4-bg1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .adi-prd-sec4-sub{
+    margin: 0% 6% 0% 6%;
+    padding-top: 5%;
+
+  }
+  .adi-prd-sec4-sub-p1{
+    font-family: "Antonio", sans-serif;
+    color: #CDB30C;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+
+.adi-prd-sec4-sub-p2{
+    font-family: "Antonio", sans-serif;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: justify;
+}
+
+
+
+.adi-prd-sec4-sub1{
+    margin: 0% 6% 0% 6%;
+}
+
+
+
+
+/* General Styles for the Image Container */
+.img-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Info Container Styles */
+.info-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background: linear-gradient(
+    to bottom,
+    rgba(205, 179, 12, 0.8) 20%, /* Using #CDB30C with opacity */
+    transparent 50%,
+    rgba(205, 179, 12, 0.8) 80%
+  );
+}
+
+.img-container:hover .info-container {
+  opacity: 1;
+}
+
+/* Top and Bottom Fade Effect */
+.top-fade,
+.bottom-fade {
+  height: 20%;
+  background: rgba(205, 179, 12, 0.8); /* Using #CDB30C with opacity */
+}
+
+/* Info Text */
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8); /* Background for text */
+  border-radius: 4px;
+}
+
+/* Unique Styles for Individual Images */
+.adi-prd-sec4-row1-1 .info {
+  background-color: rgba(205, 179, 12, 0.8); /* Using #CDB30C */
+}
+
+.adi-prd-sec4-row1-2 .info {
+  background-color: rgba(205, 179, 12, 0.8); /* Using #CDB30C */
+}
+
+.adi-prd-sec4-row1-3 .info {
+  background-color: rgba(205, 179, 12, 0.8); /* Using #CDB30C */
+}
+
+.adi-port-sec4-btn-div{
+  margin: 3% 0% 5% 0%;
+  display: flex
+;
+  justify-content: center;
+}
+.adi-port-sec4-btn1{
+  background: #cdb30c;
+  color: white;
+  padding: 1% 4% 1% 4%;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************* */
+
+.testimonials-section-p1{
+    font-family: "Antonio", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    color: #cdb30c;
+}
+
+.testimonials-section-p2{
+    font-family: "Antonio", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    
+}
+.testimonial-slide{
+    width: 75% !important;
+}
+
+.testimonials-section {
+  padding: 5% 2% 5% 2%;
+    background-color: #f4f5f9;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .testimonial-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .testimonial-info .details h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #232429;
+    font-weight: 700;
+}
+  
+  
+  .testimonial-info .details p {
+    font-size: 12px;
+    color: #666;
+  }
+  
+
+  .slick-next {
+    right: 26px !important;
+}
+
+
+
+
+
+
+/* ************************************************************ */
+
+
+.adi-prd-progress-section{
+  padding: 5% 0% 5% 0%;
+}
+
+
+.adi-prd-progress-sec-p1{
+  font-family: "Antonio", sans-serif;
+  font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.adi-prd-progress-sec-p2{
+  font-family: "Antonio", sans-serif;
+  font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ********************************************* */
+
+
+@media (min-width:310px) and (max-width:768px){
+  
+  .adi-port-sec1-sub-div {
+    padding: 10% 0% 0% 4%;
+    display: flex
+;
+    align-items: center;
+}
+
+.adi-port-sec1-sub-div-p2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+  
+  .adi-port-sec1-sub-div-p1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .adi-port-sec1-sub-div-p3 {
+    color: white;
+    text-align: left;
+    margin: 0% 2% 5% 0%;
+}
+
+  .adi-port-sec2-img1{
+    display: none;
+  }
+
+  .adi-port-sec2-right-sub1-p3 {
+    color: #999999;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.adi-port-sec2-right-sub1-p4 {
+  color: #999999;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.adi-port-sec2-right-sub1-p5 {
+  color: #999999;
+  text-align: left;
+  font-size: 1rem;
+}
+  .adi-port-sec2-right-sub1-p1 {
+    color: #cdb30c;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 3% 0% 0% 0%;
+}
+
+
+.adi-port-sec2-right-sub1-p2 {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+
+}
+    
+.adi-prd-sec3-title1 {
+  color: #cdb30c;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.adi-prd-sec4 {
+  height: auto;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAGvCAYAAACtuXIOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAA1lSURBVHhe7dgxAYAwEMDAByvtgn+BsCCh2e6WeMi19vMOAAAAAAAcdv8FAAAAAICjDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgYUADAAAAAJAwoAEAAAAASBjQAAAAAAAkDGgAAAAAABIGNAAAAAAACQMaAAAAAICEAQ0AAAAAQMKABgAAAAAgMPMB+OkEzZRXJNIAAAAASUVORK5CYII=);
+  background-size: initial;
+  background-repeat: no-repeat;
+}
+
+.adi-prd-sec4-sub-p1 {
+  font-family: "Antonio", sans-serif;
+  color: #CDB30C;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.adi-prd-sec4-sub-p2 {
+  font-family: "Antonio", sans-serif;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-align: justify;
+
+}
+
+.testimonials-section-p2 {
+  font-family: "Antonio", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.adi-prd-expe-circle
+{
+
+  width: 70px !important;
+}
+}

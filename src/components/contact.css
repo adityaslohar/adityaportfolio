@@ -1,0 +1,204 @@
+.adi-port-contact-d-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.adi-port-contact-section1 {
+    background: url('/src/images/adi-prj-contact-sec1.webp');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.adi-port-contact-section1-sub1 {
+    width: 100%;
+    opacity: .5;
+    background: #232429;
+    height: 100%;
+    /* padding: 5% 2% 5% 2%; */
+}
+
+.adi-port-contact-section1-for-static-bg {
+    background-attachment: fixed;
+}
+
+.adi-port-contact-section1-sub1-p1 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: start;
+}
+
+.adi-port-contact-section1-sub1-a1 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.adi-port-contact-section1-sub1-a1:hover {
+    color: #cdb30c;
+}
+
+.adi-port-contact-section1-sub1-title1 {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+}
+
+.adi-port-contact-section2-sub1-form-div-col2-icon-div1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.adi-port-contact-section2-sub1-form-div-col2-icon1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.adi-port-contact-section2-sub1-form-div-col2-p-tags1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #cdb30c;
+}
+
+.adi-port-contact-section2-sub1-form-div-col2-p-tags2 {
+    font-family: "Roboto", sans-serif;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.adi-port-contact-section2 {
+    padding: 10% 5% 10% 5%;
+}
+
+.adi-port-contact-section2-sub1-form-div {
+    -webkit-box-shadow: 0px 0px 37px -16px rgba(0, 0, 0, 0.15);
+}
+
+.adi-port-contact-section2-sub1-form-div-col1 {
+    padding: 5% 5% 5% 5%;
+}
+
+.adi-port-contact-section2-sub1-P1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+}
+
+.adi-port-contact-section2-sub1-form-div-col1-input1 {
+    width: 100%;
+    border: 2px solid #cdb30c !important;
+    padding: 12px;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.adi-port-contact-section2-sub1-form-div-col1-row1-col {
+    padding: 0 10px 0 0;
+    margin-bottom: 3%;
+}
+
+.adi-port-contact-section2-sub1-form-div-col1-row1-col1 {
+    padding: 0 0 0 10px;
+}
+
+.adi-port-contact-sec2-form-margin {
+    margin-bottom: 3%;
+}
+
+.adi-port-contact-section2-sub1-form-div-col1-BTN1-div {
+    display: flex;
+    justify-content: left;
+}
+
+.adi-port-contact-section2-sub1-form-div-col1-BTN1 {
+    background: #cdb30c !important;
+    border: 1px solid #cdb30c !important;
+    color: #fff !important;
+
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    text-transform: uppercase;
+    font-size: 1.2;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.adi-port-contact-section2-sub1-form-div-col2 {
+    background: #232429 !important;
+    padding: 5% 3% 5% 3%;
+}
+
+.adi-port-contact-section2-sub1-form-div-col2-P1 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.adi-port-contact-section2-sub2 {
+
+    -webkit-box-shadow: 0px 0px 37px -16px rgba(0, 0, 0, 0.15);
+    height: 100vh;
+    margin: 5% 0% 3% 0%;
+    /* background: #999999; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adi-port-contact-section2-sub2-sub1 {
+    /* width: 100%; */
+}
+
+
+
+@media(min-width:320px) and (max-width:768px) {
+    .adi-port-contact-section1 {
+
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .adi-port-contact-section2-sub2-sub1 img{
+        width: 90%;
+    }
+
+    .adi-port-contact-section1-sub1-title1 {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: start;
+        font-family: "Roboto", sans-serif;
+    }
+    
+}

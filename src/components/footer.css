@@ -1,0 +1,29 @@
+.adi-prj-footer-main-div{
+    background: url('../images/adi-port-sec1-bg1.jpg');
+    background-repeat: no-repeat;
+    padding: 3% 2% 2% 2%;
+}
+
+.footer-icon{
+    margin: 0 20px 0 0;
+    font-size: 1.3rem;
+}
+
+.adi-prj-footer-links{
+    list-style: none;
+}
+
+.adi-prj-footer-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+.adi-prj-footer-title {
+    color: #cdb30c;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}

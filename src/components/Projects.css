@@ -1,0 +1,224 @@
+/* src/components/Projects.css */
+.adi-prj-sec1{
+    background: url('../images/adi-port-sec1-bg.jpg');
+    height: auto;
+    padding: 15% 10% 10% 10%;
+}
+
+
+.adi-prj-sec1-title-1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.adi-prj-sec1-p1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.adi-prj-sec2{
+    padding: 2% 0% 5% 0%;
+}
+
+.adi-prj-sec2-p1{
+    color: #cdb30c;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+    margin: 0;
+}
+
+
+.adi-prj-sec2-p2{
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+}
+
+.adi-prj-sec2-p3{
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.adi-prj-sec2-p3-a1{
+    text-decoration: none;
+
+}
+
+
+.adi-prj-sec2-p4{
+    text-align: left;
+    color: black;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+
+}
+
+
+
+.adi-prj-sec2-p5{
+    text-align: left;
+    color: #999999;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.adi-prj-sec2-p6{
+    text-align: left;
+    color: black;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+}
+
+.adi-prj-sec2-prj1-ui{
+    text-align: left;
+    color: #999999;
+    text-align: left;
+    font-size: 1rem;
+}
+
+
+.adi-prj-sec2-p8{
+    text-align: left;
+}
+
+.adi-prj-sec2-sub1{
+    display: flex;
+    justify-content: center;
+}
+
+.adi-prj-sec2-p7{
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+}
+
+
+.adi-prj-2nd-project-div{
+    background: rgb(244, 245, 249);
+    padding: 1% 2% 1% 2%;
+}
+
+
+
+
+.projects-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+
+  .ytp-chrome-top .ytp-show-cards-title{
+    display: none !important;
+  }
+
+
+  @media(min-width:310px) and (max-width:768px){
+    .adi-prj-sec1-title-1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        text-align: left;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+    }
+
+    .adi-prj-sec1-p1 {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .adi-prj-sec2 {
+        padding: 5% 0% 5% 0%;
+    }
+
+    .adi-prj-sec2-p1 {
+        color: #cdb30c;
+        text-align: left;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: "Antonio", sans-serif;
+        margin: 5% 0% 0% 0%;
+    }
+
+    .adi-prj-sec2-p2 {
+        color: black;
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: "Antonio", sans-serif;
+    }
+    
+    .adi-prj-sec2-sub1 {
+        display: flex
+    ;
+        justify-content: center;
+        margin: 0% 2% 0% 2%;
+    }
+
+    .adi-prj-sec2-p7 {
+        text-align: center;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: "Antonio", sans-serif;
+        margin: 5% 0% 0% 0%;
+    }
+
+
+    .adi-port-contact-section2-sub1-P1 {
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .adi-port-contact-section2-sub1-form-div-col1-row1-col1 {
+        padding: 0 0 0 0px;
+        margin: 0% 0% 2% 0%;
+    }
+  }

@@ -1,0 +1,299 @@
+.adi-about-dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adi-prj-about-sec1-sub1 {
+    width: 100%;
+    opacity: .5;
+    background: #232429;
+    height: 100%;
+     padding: 5% 2% 5% 2%;
+}
+
+.adi-prj-about-sec1{
+    background: url('/src/images/adi-prj-about-sec1-bg.jpg');
+    height: 100vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+
+
+.adi-prj-about-sec2{
+    height: auto;
+    padding: 5% 3% 5% 3%;
+    background: url('/src/images/adi-port-about-sec2-bg.jpg');
+    background-size: contain;
+}
+
+
+.adi-prj-abt-sec2-p1{
+    font-family: "Antonio", sans-serif;
+    color: #CDB30C;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+
+.adi-prj-about-sec2-p1{
+    font-family: "Antonio", sans-serif;
+    color: #000000;
+    font-size: 4rem;
+    text-align: justify;
+}
+
+
+
+
+.adi-prj-about-sec3{
+    height: auto;
+    padding: 5% 3% 5% 3%;
+}
+
+.adi-prj-about-sec3-p1{
+    font-family: "Antonio", sans-serif;
+    color: #cdb30c;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+
+
+.adi-prj-abt-sec2-p2{
+    font-weight: 400;
+    color: #999999;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+}
+
+.adi-prj-about-sec3-p2{
+    font-family: "Antonio", sans-serif;
+    color: #CDB30C;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.adi-prj-about-sec3-p3{
+    font-size: 1.8rem;
+    text-align: left;
+    font-family: "Antonio", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+
+}
+
+.adi-prj-abt-sec3-row1-col2{
+    display: flex;
+    justify-content: end;
+}
+
+
+.adi-prj-about-sec3-1sexp{
+
+}
+.adi-prj-about-sec3-1sexp-ul{
+
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: "Roboto", Arial, sans-serif;
+
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+
+.adi-prj-about-sec3-p4{
+    font-family: "Antonio", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.adi-prj-about-sec4{
+    height: auto;
+    padding: 5% 3% 5% 3%;
+    /* background: #f4f5f9 !important; */
+    background: #232429;
+}
+
+.adi-prj-about-sec4-p1{
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.adi-prj-about-sec4-p2{
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.adi-prj-about-sec4-p3{
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.adi-prj-about-sec4-p4{
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.adi-prj-about-sec4-row-col1{
+   
+    padding: 2% 2% 2% 2%;
+    border-radius: 12px;
+    background: #CDB30C;
+}
+
+.adi-prj-about-sec4-row-col{
+   
+    padding: 2% 2% 2% 2%;
+    border-radius: 12px;
+    background: #1a1a1a;
+}
+
+.adi-prj-about-sec4-row-col:hover{
+    background: #CDB30C;
+}
+
+.adi-prj-about-sec4-row2{
+    display: flex;
+    justify-content: end;
+}
+
+
+.adi-prj-about-sec4-row1-col2{
+    display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 0% 0% 0
+}
+.adi-prj-about-sec4-row1-col2-p1{
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: "Antonio", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #CDB30C;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1% 7% 1% 7%;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.adi-prj-about-sec4-row2-col2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0% 10% 0% 0%;
+}
+.adi-prj-about-sec4-row2-col2-p1{
+    font-size: 2.8rem;
+    text-align: left;
+    font-family: "Antonio", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: #CDB30C;
+    width: fit-content;
+    padding: 2% 4% 2% 4%;
+    height: fit-content;
+}
+
+
+
+@media(min-width:310px) and (max-width:768px){
+    .adi-prj-about-sec1 {
+    
+        height: 70vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .adi-prj-abt-sec2-p1 {
+        font-family: "Antonio", sans-serif;
+        color: #CDB30C;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .adi-prj-abt-sec2-p2 {
+        font-weight: 400;
+        color: #999999;
+        color: #fff;
+        font-size: 1rem;
+        font-family: "Roboto", Arial, sans-serif;
+        text-align: center;
+    }
+
+    .adi-prj-about-sec3-p1 {
+        font-family: "Antonio", sans-serif;
+        color: #cdb30c;
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+
+    .adi-prj-about-sec3-p2 {
+        font-family: "Antonio", sans-serif;
+        color: #CDB30C;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .adi-prj-about-sec3-p4 {
+        font-family: "Antonio", sans-serif;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1rem;
+        text-align: right;
+    }
+    .adi-prj-about-sec3-p3 {
+        font-size: 1.5rem;
+        text-align: left;
+        font-family: "Antonio", sans-serif;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 400;
+    }
+
+    .adi-prj-about-sec4-row1-col2-p1 {
+        font-size: 1.5rem;
+        text-align: left;
+        font-family: "Antonio", sans-serif;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 400;
+        border-radius: 50%;
+        background-color: #CDB30C;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1% 5% 1% 5%;
+        height: -moz-fit-content;
+        height: fit-content;
+        margin: 3% 0% 3% 0%;
+    }
+}

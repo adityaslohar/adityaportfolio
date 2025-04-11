@@ -1,0 +1,56 @@
+.adi-prd-nav {
+    position: absolute;
+}
+
+.adi-prj-navbar-main-div {
+
+    /* background-color: rgb(255 255 255 / 20%); */
+    background: rgba(255, 255, 255, 0.1) !important;
+    /* backdrop-filter: blur(10px); */
+    /* transition: background-color 0.3s ease-in-out; */
+    margin: 2% 0 0 0;
+    z-index: 3;
+}
+
+
+.adi-prj-navbar-title1 {
+
+    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: "Antonio", sans-serif; */
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+
+.adi-prj-navbar-title1:hover {
+    color: #cdb30c;
+}
+
+.adi-prj-navbar-a-links {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.adi-prj-navbar-a-links:hover {
+    color: #cdb30c;
+}
+
+
+@media(min-width:320px) and (max-width:768px) {
+    .adi-prd-nav {
+        position: relative;
+    }
+
+    .adi-prj-navbar-title1 {
+        color: #cdb30c;
+    }
+    .adi-prj-navbar-a-links {
+        color: #000000;
+    }
+}
