@@ -34,7 +34,7 @@ function Home() {
   ];
 
   const openResume = () => {
-    window.open('/Aditya_lohar1.pdf', '_blank');
+    window.open('/Aditya_lohar_Resume.pdf', '_blank');
   };
   const images = [
     { src: adi_sec4_prj1, info: "BrightLink Company Website" },

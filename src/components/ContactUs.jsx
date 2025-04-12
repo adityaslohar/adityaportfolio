@@ -15,80 +15,51 @@ const ContactUs = () => {
         email: '',
         subject: '',
         message: ''
-    });
-
-    const [loading, setLoading] = useState(false);
+      });
     
-    const handleChange = (e) => {
+      const [loading, setLoading] = useState(false);
+    
+      const handleChange = (e) => {
         setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
+          ...formData,
+          [e.target.name]: e.target.value
         });
-    };
-
-
-
-    const handleSubmit = async (e) => {
+      };
+    
+      const handleSubmit = async (e) => {
         e.preventDefault();
-        setLoading(true);
-    
-        Swal.fire({
-          title: 'Sending...',
-          text: 'Please wait while we send your message.',
-          allowOutsideClick: false,
-          didOpen: () => {
-            Swal.showLoading();
-          }
-        });
-    
+      
+        // Simple validation to ensure no field is empty
+        const { name, email, subject, message } = formData;
+        if (!name.trim() || !email.trim() || !subject.trim() || !message.trim()) {
+          Swal.fire('Validation Error', 'Please fill in all the fields.', 'warning');
+          return;
+        }
+      
+        setLoading(true); // Show loader
+      
         try {
-          const response = await fetch('http://localhost:8000/formHandler.php', {
+          const response = await fetch('/api/formHandler', {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
           });
-    
+      
           const result = await response.json();
-          console.log("Result from PHP:", result);
-    
-          Swal.close();
-    
-          if (result.status === "success") {
-            Swal.fire({
-              title: 'Message Sent!',
-              text: 'Your message has been sent successfully.',
-              icon: 'success',
-              confirmButtonText: 'OK'
-            });
-    
-            setFormData({
-              name: '',
-              email: '',
-              subject: '',
-              message: ''
-            });
+          if (result.status === 'success') {
+            Swal.fire('Success!', 'Message sent successfully.', 'success');
+            setFormData({ name: '', email: '', subject: '', message: '' });
           } else {
-            Swal.fire({
-              title: 'Error!',
-              text: result.message || 'Something went wrong!',
-              icon: 'error',
-              confirmButtonText: 'OK'
-            });
+            Swal.fire('Oops!', 'Something went wrong.', 'error');
           }
         } catch (error) {
-          Swal.close();
-          Swal.fire({
-            title: 'Error!',
-            text: 'Something went wrong!',
-            icon: 'error',
-            confirmButtonText: 'OK'
-          });
+          console.error(error);
+          Swal.fire('Error!', 'Failed to send message.', 'error');
         } finally {
-          setLoading(false);
+          setLoading(false); // Hide loader
         }
       };
+      
 
 
     return (
@@ -122,20 +93,27 @@ const ContactUs = () => {
                         <div className="row w-100 m-0 p-0">
                             <div className="col-md-8 adi-port-contact-section2-sub1-form-div-col1">
 
-                               <form onSubmit={handleSubmit}>
+
+                                {/* Loader Div */}
+                                {loading && (
+                                    <div className="loader-overlay">
+                                        <div className="loader"></div>
+                                    </div>
+                                )}
+                                <form onSubmit={handleSubmit}>
 
 
                                     <p className="adi-port-contact-section2-sub1-P1"> GET IN TOUCH</p>
 
                                     <div className="row w-100 m-0 p-0">
                                         <div className="col-md-6 adi-port-contact-section2-sub1-form-div-col1-row1-col">
-                                            <input type="text"  name="name"
+                                            <input type="text" name="name"
                                                 placeholder="Name"
                                                 value={formData.name}
                                                 onChange={handleChange} className="adi-port-contact-section2-sub1-form-div-col1-input1" />
                                         </div>
                                         <div className="col-md-6 adi-port-contact-section2-sub1-form-div-col1-row1-col1">
-                                            <input type="email"  name="email"
+                                            <input type="email" name="email"
                                                 placeholder="Email"
                                                 value={formData.email}
                                                 onChange={handleChange} className="adi-port-contact-section2-sub1-form-div-col1-input1" />
@@ -145,20 +123,20 @@ const ContactUs = () => {
 
                                     </div>
 
-                                    <input type="text"   name="subject"
+                                    <input type="text" name="subject"
                                         placeholder="Subject"
                                         value={formData.subject}
-                                        onChange={handleChange}className="adi-port-contact-section2-sub1-form-div-col1-input1 adi-port-contact-sec2-form-margin" />
-                                    <textarea id=""  name="message"
+                                        onChange={handleChange} className="adi-port-contact-section2-sub1-form-div-col1-input1 adi-port-contact-sec2-form-margin" />
+                                    <textarea id="" name="message"
                                         placeholder="Message"
                                         value={formData.message}
-                                        onChange={handleChange}className="adi-port-contact-section2-sub1-form-div-col1-input1 adi-port-contact-sec2-form-margin" rows={6}></textarea>
+                                        onChange={handleChange} className="adi-port-contact-section2-sub1-form-div-col1-input1 adi-port-contact-sec2-form-margin" rows={6}></textarea>
 
                                     <div className="adi-port-contact-section2-sub1-form-div-col1-BTN1-div">
                                         <button type="submit" className="adi-port-contact-section2-sub1-form-div-col1-BTN1">SEND MESSAGE</button>
                                     </div>
 
-                                </form> 
+                                </form>
 
                                 {/* <form onSubmit={handleSubmit}>
                                     <p className="adi-port-contact-section2-sub1-P1"> GET IN TOUCH</p>

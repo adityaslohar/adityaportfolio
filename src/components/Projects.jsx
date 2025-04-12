@@ -53,7 +53,15 @@ function Projects() {
                 <div className="row w-100 m-0 p-0">
 
                     <div className="col-md-6 d-flex justify-content-center">
-                        <video src={BitVideo} controls width="100%" autoPlay loop muted></video>
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/m3_vcU_jxl4?autoplay=1&mute=1&loop=1&playlist=m3_vcU_jxl4&controls=0&modestbranding=1&rel=0"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen>
+                        </iframe>
+
 
                     </div>
 
@@ -146,7 +154,20 @@ function Projects() {
                         </div>
 
                         <div className="col-md-6 d-flex justify-content-center">
-                            <video src={BitVideo} controls width="100%" autoPlay loop muted></video>
+
+
+
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/U4Uq4tHqPik?autoplay=1&mute=1&loop=1&playlist=U4Uq4tHqPik&controls=0&modestbranding=1&rel=0"
+                                frameborder="0"
+                                allow="autoplay encrypted-media"
+                                allowfullscreen>
+                            </iframe>
+
+
+
 
                         </div>
 
